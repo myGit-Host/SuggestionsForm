@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1 id="title">Suggestions Form</h1>
+        <p id="description">We are open to opinions and feedback, help us to improve</p>
+    </header>
+
+    <form action="" id="survey-form">
+        <div class="group-a">
+            <label for="name" id="name-label" class="label-group pbold">Name
+                <input type="text" name="name" id="name" placeholder="Enter your name" required>
+            </label>
+
+            <label for="email" id="email-label" class="label-group pbold">Email<input type="email" name="email" id="email" placeholder="Enter your email" required></label>
+
+            <label for="number" id="number-label" class="label-group pbold">Age (optional)<input id="number" type="number" name="number" min="12" max="120" placeholder="Enter your age" /></label>
+
+            <label for="dropdown" class="label-group pbold">
+                Which option best describes your current role?
+                <select id="dropdown" name="dropdown">
+                    <option value="">(select one)</option>
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                    <option value="4">Other</option>
+                </select>
+            </label>
+        </div>
+
+        <div class="label-group-b">
+            <p class="pbold">Would you recomend this site to a friend?</p>
+            <div class="line"></div>
+            <label for="definitely"><input value="1" id="definitely" type="radio" name="recomend" class="inline" /> Definitely</label>
+            <label for="maybe"><input value="2" id="maybe" type="radio" name="recomend" class="inline" /> Maybe</label>
+            <label for="nope"><input value="3" id="nope" type="radio" name="recomend" class="inline" /> Nope</label>
+        </div>
+
+        <div id="moptions" class="label-group-b">
+            <p class="pbold">What would you like to see improved?</p>
+            <div class="line"></div>
+            <label>
+                <input id="option" type="checkbox" name="option" value="1" class="inline" /> Option lorem
+            </label>
+            <label>
+                <input id="option" type="checkbox" name="option" value="2" class="inline" /> Option lorem
+            </label>
+            <label>
+                <input id="option" type="checkbox" name="option" value="3" class="inline" /> Option lorem
+            </label>
+            <label>
+                <input id="option" type="checkbox" name="option" value="4" class="inline" /> Option lorem
+            </label>
+            <label>
+                <input id="option" type="checkbox" name="option" value="5" class="inline" /> Option lorem
+            </label>
+            <label>
+                <input id="option" type="checkbox" name="option" value="6" class="inline" /> Option lorem
+            </label>
+            <label>
+                <input id="option" type="checkbox" name="option" value="7" class="inline" /> Option lorem
+            </label>
+            <label>
+                <input id="option" type="checkbox" name="option" value="8" class="inline" /> Option lorem
+            </label>
+         </div>
+
+        <label for="suggestions" class="pbold">Comments and suggestions:
+            <textarea id="suggestions" name="suggestions" rows="4" cols="30" placeholder="Eneter your comment here..."></textarea>
+        </label>
+
+        <input id="submit" type="submit" value="Submit"/>
+
+    </form>
+    <div class="blank"></div>
+</body>
+</html>

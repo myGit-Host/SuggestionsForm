@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@300;400;700&display=swap');
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    color: azure;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding-bottom: 2rem;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.6rem;
+    background: linear-gradient(120deg, rgba(0, 0, 0, 0.72), rgba(30,30, 30, 0.5)) fixed, url(https://images.hdqwalls.com/wallpapers/abstract-purple-mixed-4k-c2.jpg) fixed center;
+}
+
+/* url(https://static.vecteezy.com/system/resources/previews/002/072/005/original/modern-gradient-purple-blue-background-free-vector.jpg)  url(https://wallpaperaccess.com/full/5143159.jpg) */
+
+header{
+    margin: 15vh 10% 7vh 10%;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+header p{
+    font-style: italic;
+    margin-top: 1vh;
+    text-align: center;
+}
+
+form {
+    width: 60%;
+    max-width: 500px;
+    min-width: 300px;
+    margin: auto;
+    background-color: #8a00e6a7;
+    padding: 5vw;
+    border-radius: 0.4rem;
+}
+
+label {
+    display: block;
+    margin: 0.5rem auto;
+}
+
+.pbold{
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.label-group {
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}
+
+.group-a{
+    margin-bottom: 4rem;
+}
+
+.label-group-b {
+    font-size: 1.8rem;
+}
+
+.line{
+    height: 1px;
+    width: 20rem;
+    background: #ff00ff;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+input,
+textarea,
+select {
+    margin: 0.5rem 0 0 0;
+    width: 100%;
+    min-height: 4rem;
+    border: 0;
+    border-radius: 5px;
+    padding: 7px;
+    box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+}
+
+#moptions{
+    margin-bottom: 5rem;
+}
+
+.inline {
+    width: 20px;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+  
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin: 1rem auto;
+    height: 5vh;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: azure;
+    background-color: rgb(5, 158, 89);
+    border: 0;
+    border-radius: 5px;
+    min-width: 300px;
+    padding: 1rem;
+    padding-bottom: 3rem;
+}
+  
+input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: rgb(5, 130, 74);
+}
+
+.blank{
+    height: 10vh;
+}
+
+@media only screen and (max-width: 370px) {
+
+    form{
+        border-radius: none;
+    }
+
+    .blank{
+        display: none;
+    }
+}
